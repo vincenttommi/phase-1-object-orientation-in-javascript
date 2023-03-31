@@ -8,7 +8,7 @@ class Person{
     constructor(name,age){
 
      this.name = name;
-     this.age = age;
+     this.age = age;  // accessing the data 
 
 
 
@@ -24,6 +24,7 @@ class Person{
     }
 
     sayAge(){
+        ///methods   have access to  out data 
 
 
         console.log(` I am ${this.age} years old`);
@@ -40,16 +41,23 @@ class Person{
 }
 
 
-let evan = new Person('evans', 34);
+let sarah  = new Person('sarah', 34);
+let vincent = new Person('vincent', 50);
+let restaurant = new Restaurant('La Villa', '261 5th Ave',Brooklyn, nys);
 
 
-evan.SayHello();
-
-evan.haveBirthday();
-
-evan.sayAge();
 
 
-evan;
 
 
+// restaurant.addGuest(tommi);
+// restaurant.addGuest(vincent);
+// restaurant.addGuest(brayo);
+// restaurant.serveGuest(evans, new Drink('water'));
+// restaurant.serveGuest(kirubi, new Drink('alcohol'));
+
+
+
+
+
+// tommi.evan.saySmallTalk();
